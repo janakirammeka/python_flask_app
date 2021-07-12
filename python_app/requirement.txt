@@ -1,0 +1,5 @@
+sudo apt-get install python-virtualenv
+virtualenv "virtual_caltech"
+virtual_clatech environmnet/bin/activate
+pip install Flask
+FLASK_APP=hello.py flask run
